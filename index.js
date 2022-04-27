@@ -1,5 +1,4 @@
 // Write your solution here!
-// Write your solution here
 const cats = ["Milo", "Otis", "Garfield"]
 console.log(cats)
 
@@ -38,11 +37,3 @@ function removeLastCat(){
 function removeFirstCat(){
   return cats.slice(1, cats.length)
 }
-
-// The output works but it doesn't pass the test thats why I commented it
-/* function removeLastCat(cats){
-  cats.pop();
-} 
-removeLastCat(cats, 'Garfield')
-console.log(cats);
-*/
